@@ -7,8 +7,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/rest"
 
-	klient "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned"
-	//klient "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
+	klientcluster "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 	_ "k8s.io/code-generator"
@@ -35,7 +34,7 @@ func main() {
 		}
 	}
 
-	klientset, err := klient.NewForConfig(config)
+	klientset, err := klientcluster.NewForConfig(config)
 	if err != nil {
 		log.Printf("getting klient set %s\n", err.Error())
 	}

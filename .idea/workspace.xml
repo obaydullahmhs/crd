@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f9dc25-e38d-4cbe-af04-0a8bafe00a20" name="Changes" comment="" />
+    <list default="true" id="18f9dc25-e38d-4cbe-af04-0a8bafe00a20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/tools/internal/gocommand/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/tools/internal/gocommand/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/tools/internal/imports/fix.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/tools/internal/imports/fix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/helpers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/types_jsonschema.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/.import-restrictions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/conversion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/generated.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/generated.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/marshal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/types_jsonschema.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/zz_generated.conversion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/zz_generated.deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1/zz_generated.defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/.import-restrictions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/conversion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/generated.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/generated.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/marshal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/types_jsonschema.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/zz_generated.conversion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/zz_generated.deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/zz_generated.defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1/zz_generated.prerelease-lifecycle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/zz_generated.deepcopy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/clientset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/scheme/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/scheme/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1/apiextensions_client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1/customresourcedefinition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1/generated_expansion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1/apiextensions_client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1/customresourcedefinition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1/generated_expansion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/api/equality/semantic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/utils/pointer/OWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/utils/pointer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/utils/pointer/pointer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
