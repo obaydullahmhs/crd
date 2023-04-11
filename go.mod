@@ -1,8 +1,9 @@
-module github.com/obaydullahmhs/sample-controller
+module github.com/obaydullahmhs/crd
 
 go 1.20
 
 require (
+	k8s.io/apiextensions-apiserver v0.26.3
 	k8s.io/apimachinery v0.26.3
 	k8s.io/client-go v0.26.3
 	k8s.io/code-generator v0.26.3

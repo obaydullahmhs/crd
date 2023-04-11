@@ -20,8 +20,8 @@ package v1alpha1
 import (
 	"net/http"
 
-	v1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/apis/aadee.apps/v1alpha1"
-	"github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/obaydullahmhs/crd/pkg/apis/aadee.apps/v1alpha1"
+	"github.com/obaydullahmhs/crd/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

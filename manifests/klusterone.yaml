@@ -1,0 +1,10 @@
+apiVersion: aadee.apps/v1alpha1
+kind: Kluster
+metadata:
+  name: kluster-0
+spec:
+  name: kluster-0
+  replicas: 2
+  container:
+    image:
+    port:

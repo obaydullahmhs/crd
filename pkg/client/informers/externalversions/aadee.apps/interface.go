@@ -18,8 +18,8 @@ limitations under the License.
 package aadee
 
 import (
-	v1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/client/informers/externalversions/aadee.apps/v1alpha1"
-	internalinterfaces "github.com/obaydullahmhs/sample-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/obaydullahmhs/crd/pkg/client/informers/externalversions/aadee.apps/v1alpha1"
+	internalinterfaces "github.com/obaydullahmhs/crd/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

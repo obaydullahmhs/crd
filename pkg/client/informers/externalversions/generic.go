@@ -20,7 +20,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/apis/aadee.apps/v1alpha1"
+	v1alpha1 "github.com/obaydullahmhs/crd/pkg/apis/aadee.apps/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

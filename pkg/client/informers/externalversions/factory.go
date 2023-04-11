@@ -22,9 +22,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned"
-	aadeeapps "github.com/obaydullahmhs/sample-controller/pkg/client/informers/externalversions/aadee.apps"
-	internalinterfaces "github.com/obaydullahmhs/sample-controller/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/obaydullahmhs/crd/pkg/client/clientset/versioned"
+	aadeeapps "github.com/obaydullahmhs/crd/pkg/client/informers/externalversions/aadee.apps"
+	internalinterfaces "github.com/obaydullahmhs/crd/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -18,7 +18,7 @@ limitations under the License.
 package scheme
 
 import (
-	aadeev1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/apis/aadee.apps/v1alpha1"
+	aadeev1alpha1 "github.com/obaydullahmhs/crd/pkg/apis/aadee.apps/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

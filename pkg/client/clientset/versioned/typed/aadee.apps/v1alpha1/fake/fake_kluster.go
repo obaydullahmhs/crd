@@ -20,7 +20,7 @@ package fake
 import (
 	"context"
 
-	v1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/apis/aadee.apps/v1alpha1"
+	v1alpha1 "github.com/obaydullahmhs/crd/pkg/apis/aadee.apps/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

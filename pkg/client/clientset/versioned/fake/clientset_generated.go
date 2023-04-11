@@ -18,9 +18,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned"
-	aadeev1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1"
-	fakeaadeev1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1/fake"
+	clientset "github.com/obaydullahmhs/crd/pkg/client/clientset/versioned"
+	aadeev1alpha1 "github.com/obaydullahmhs/crd/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1"
+	fakeaadeev1alpha1 "github.com/obaydullahmhs/crd/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

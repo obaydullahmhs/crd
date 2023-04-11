@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net/http"
 
-	aadeev1alpha1 "github.com/obaydullahmhs/sample-controller/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1"
+	aadeev1alpha1 "github.com/obaydullahmhs/crd/pkg/client/clientset/versioned/typed/aadee.apps/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
